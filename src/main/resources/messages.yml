@@ -1,0 +1,30 @@
+
+Prefix: "&c[KirmikCraft]"
+Setwarp_Message:
+  With_Owner: "#14abc9You have created the warp %warpName% for %warpOwner%!"
+  Without_Owner: "#14abc9You have created the warp %warpName%."
+
+Warp_Cost_Taken: "#14abc9The amount of price #ff4a4a$%warpCost% #14abc9has been taken from your account for the warp."
+Remove_Warp_Message: "#14abc9A eliminado con exito el warp %warpName%."
+Clear_Warps_Message: "#ff4a4aTodos los warps fueron eliminados!"
+Warp_Already_Exists: "#ff4a4aEse Warp ya existe."
+Invalid_Warp_Name: "#ff4a4aEse lugar no existe."
+Payment_Failed: "#14abc9El Jugador %player% No tiene dinero para pagar eso."
+Warp_Message: "#ff4a4aFuiste teletransportado a %warpName%."
+Reload_Message: "#14abc9KirmikCore fue recargado con exito."
+Invalid_Player: "#ff4a4Ese jugador no fue encontrado."
+No_Console: "No esta permitido para consola"
+No_Permission: "#ff4a4aNo tienes permisos para ello."
+Error_Command: "Algun error con el comando"
+Firts_Home: "Primero debes guardar un lugar con /sethome <hogar>"
+Teleport_Home: "Teletransportandose en unos segundos"
+Home_Create: "Acabas de crear un home con el nombre %homeName%"
+Spawn_Message: "Fuiste teletransportado al spawn"
+Home_Teleport: "Fuiste teletransportado a tu home %homeName%"
+Remove_Home_Message: "La casa fue eliminada %homeName%"
+Home_Limite: Has alcanzado al limite maximo de casas
+Home_Existe: "Ese home ya existe"
+NoExiste_Home: "Ese Home no existe %homeName%"
+Money_Add: "&cSe te acaba de agregar a tu cuenta %money% $"
+Repair_all: "&cTodos  tus items fueron reparados"
+Config_Version: 1.2

@@ -1,0 +1,15 @@
+
+Warp_Cost:
+  Enabled: true
+  Cost: 5.00
+Warp_Particle_Effects:
+  Before_Warp: BUBBLE_POP
+  After_Warp: PORTAL
+
+Sound_Effects:
+  Before_Warp_Sound: ENTITY_ENDERMAN_TELEPORT
+  After_Warp_Sound: ENTITY_FOX_TELEPORT
+
+Per_Warp_Permissions: true
+Update_Notify: true
+Config_Version: 1.1

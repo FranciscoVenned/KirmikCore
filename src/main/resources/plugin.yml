@@ -1,0 +1,162 @@
+name: KirmikCore
+version: ${project.version}
+main: github.com.franciscovenned.kirmikcore.KirmikCore
+api-version: 1.16
+authors: [ FranciscoVenned ]
+description: KirmikCore Essentials, Command, Events
+commands:
+  homelist:
+    description: list homes
+  fixall:
+    description: Repair all
+  commandblock:
+    description: Command in block
+  id:
+    description: View ID item
+  enderchest:
+    description: View EnderChest Players
+  invsee:
+    description: See Inventory
+  fly:
+    description: Fly Players
+  hat:
+    description: hat command
+  heal:
+    description: Heal
+  creative:
+    description: GameMode Creative
+    aliases:
+      - gmc
+  survival:
+    description: GameMode Survival
+    aliases: [gms]
+  spawn:
+    description: spawn
+  setspawn:
+    description: setspawn
+  changeitem:
+    description: ChangeItem
+  delhome:
+    description: Deleting Home
+  home:
+    description: Telporting in your home
+    aliases: [h]
+  sethome:
+    description: Adding sethome in your list
+    aliases: [seth]
+  kirmikcore:
+    description: Main command for the plugin
+    aliases: [kw, kwarps]
+  delwarp:
+    description: Command to delete warps
+    aliases: [deletewarp, removewarp, destorywarp]
+  setwarp:
+    description: Command to set warps
+    aliases: [createwarp, makewarp, addwarp]
+  warp:
+    description: Command to use the warps
+  checkwarp:
+    description: Command to check the warp details
+    aliases: [warpinfo, infowarp, warpcheck]
+  listwarps:
+    description: Command to list all the warps
+    aliases: [warpslist, warps]
+  clearwarps:
+    description: Command to delete all the warps
+  omegawarpsdebug:
+    description: Command to view debug information
+    aliases: [owdebug, warpsdebug, debugwarps]
+
+permissions:
+  kirmikcore.admin:
+    default: false
+    description: Grants access to all the commands
+    children:
+      - kirmikcore.fly
+      - kirmikcore.home.4
+      - kirmikcore.home.2
+      - kirmikcore.home.7
+      - kirmikcore.home.9
+      - kirmikcore.repairall
+      - kirmikcore.enderchest
+      - kirmikcore.invsee
+      - kirmikcore.reload
+      - kirmikcore.update
+      - kirmikcore.setwarp
+      - kirmikcore.setwarp.others
+      - kirmikcore.warps
+      - kirmikcore.delwarp
+      - kirmikcore.checkwarps
+      - kirmikcore.listwarps
+      - kirmikcore.cost.bypass
+      - kirmikcore.clearwarps
+      - kirmikcore.debug
+      - kirmikcore.sethome
+      - kirmikcore.home
+      - kirmikcore.gamemode
+      - kirmikcore.heal
+      - kirmikcore.fly
+      - kirmikcore.heal
+  kirmikcore.reload:
+    default: false
+    description: Grants access to the reload command
+  kirmikcore.update:
+    default: false
+    description: Allows the user to receive the update message in-game
+  kirmikcore.setwarp:
+    default: false
+    description: Grants access to the setwarp command
+  kirmikcore.setwarp.others:
+    default: false
+    description: Grants access to setting warps for other players
+  kirmikcore.warps:
+    default: false
+    description: Grants access to the warp command
+  kirmikcore.delwarp:
+    default: false
+    description: Grants access to the delwarp command
+  kirmikcore.checkwarps:
+    default: false
+    description: Grants access to the checkwarp command
+  kirmikcore.listwarps:
+    default: false
+    description: Grants access to the listwarps command
+  kirmikcore.cost.bypass:
+    default: false
+    description: Allows the user to bypass the cost for setting warps
+  kirmikcore.clearwarps:
+    default: false
+    description: Grants access to the clearwarps command
+  kirmikcore.debug:
+    default: false
+    description: Grants access to the debug command
+  kirmikcore.gamode:
+    default: false
+    description: false
+  kirmikcore.delhome:
+    description: false
+  kirmikcore.home:
+    description: true
+  kirmikcore.heal:
+    default: false
+    description: false
+  kirmikcore.fly:
+    default: false
+    description: false
+  kirmikcore.hat:
+    default: false
+    description: false
+  kirmikcore.invsee:
+    default: false
+  kirmikcore.enderchest:
+    default: false
+  kirmikcore.home.4:
+    default: false
+  kirmikcore.home.2:
+    default: false
+  kirmikcore.home.9:
+    default: false
+  kirmikcore.home.7:
+    default: false
+  kirmikcore.repairall:
+    default: false
